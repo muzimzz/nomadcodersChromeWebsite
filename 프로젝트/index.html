@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form id="login-form"> <!-- input의 유효성 검사는 <form>안에 있어야만 가능하다 --> 
+      <input 
+        required
+        minlength="2"
+        maxlength="15"
+        type="text" 
+        placeholder="이름"
+      />
+      <!-- <button>로그인</button> --> 
+      <input type="submit" value="로그인">
+
+      <a href="https://nomadcoders.co/javascript-for-beginners/lectures/2902">
+        Go to nomadcoders courses 
+      </a>
+    
+    </form>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
